@@ -1,0 +1,17 @@
+# Uebung 1.1-1.4
+
+#include <iostream>
+#include <cstdlib>
+#include <string>
+using namespace std;
+int main()
+{
+    string user_name;
+    cout << "please enter your name: ";
+    cin >> user_name;
+    cout << '\n';
+    cout << "Hello " 
+         << user_name 
+         << " ... and goodbye";
+    return 0;
+}
